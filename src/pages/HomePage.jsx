@@ -5,7 +5,7 @@ function HomePage({ setCurrentPage }) {
     <div className="bg-gradient-to-b from-yellow-100 to-white min-h-screen flex flex-col items-center text-gray-800 py-12">
       <header className="text-center mb-12">
         <h1 className="text-5xl font-extrabold text-gray-900 drop-shadow-md mb-4">
-          Selamat Datang di CertifyMe! 🎓
+          Selamat Datang di CertifyMe! 
         </h1>
         <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-6">
           Platform verifikasi sertifikat digital berbasis blockchain untuk ekonomi kreatif Indonesia. Transparansi, keamanan, dan kepercayaan dalam satu solusi.
@@ -19,12 +19,12 @@ function HomePage({ setCurrentPage }) {
 
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
         <CertificateCard
-          title="🔍 Verifikasi Sertifikat"
+          title=" Verifikasi Sertifikat"
           description="Validasi keaslian dokumen sertifikat secara real-time dengan teknologi blockchain."
           onClick={() => setCurrentPage("verify")}
         />
         <CertificateCard
-          title="📋 Koleksi Sertifikat"
+          title=" Koleksi Sertifikat"
           description="Kelola dan monitor semua sertifikat terverifikasi Anda dengan dashboard interaktif."
           onClick={() => setCurrentPage("collection")}
         />

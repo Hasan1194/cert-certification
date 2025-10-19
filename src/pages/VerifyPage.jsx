@@ -70,14 +70,14 @@ function VerifyPage() {
   return (
     <div className="bg-gradient-to-b from-yellow-100 to-white min-h-screen flex flex-col items-center justify-start pt-12 text-gray-800 pb-8">
       <h1 className="text-4xl font-bold mb-10 flex items-center gap-3">
-        🔍 Verifikasi Sertifikat
+         Verifikasi Sertifikat
       </h1>
 
       <div className="max-w-2xl w-full space-y-8 px-4">
         {/* File Upload Section */}
         <div className="bg-white shadow-2xl rounded-2xl p-8 border-4 border-yellow-400">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-            📤 Upload File Sertifikat
+             Upload File Sertifikat
           </h2>
           <div className="space-y-4">
             <div className="relative border-3 border-dashed border-yellow-300 rounded-lg p-8 text-center hover:bg-yellow-50 transition-colors cursor-pointer">
