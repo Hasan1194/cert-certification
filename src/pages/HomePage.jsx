@@ -69,24 +69,6 @@ function HomePage({ setCurrentPage }) {
           </div>
         </div>
       </div>
-
-      {/* Footer */}
-      <footer className="mt-20 w-full bg-gradient-to-r from-yellow-400 to-yellow-500 dark:from-gray-800 dark:to-gray-900 py-6 text-center text-gray-900 dark:text-gray-300">
-        <p className="font-semibold">© 2025 CertifyMe | All Rights Reserved</p>
-        <div className="mt-2 text-sm">
-          <span className="mx-2 hover:underline cursor-pointer">
-            Tentang Kami
-          </span>
-          |
-          <span className="mx-2 hover:underline cursor-pointer">
-            Kebijakan Privasi
-          </span>
-          |
-          <span className="mx-2 hover:underline cursor-pointer">
-            Hubungi Kami
-          </span>
-        </div>
-      </footer>
     </div>
   );
 }
