@@ -12,9 +12,9 @@ function App() {
       <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
       {currentPage === "home" && <HomePage setCurrentPage={setCurrentPage} />}
       {currentPage === "verify" && <VerifyPage />}
-      <Footer />
+      <Footer currentPage={currentPage} />
     </div>
   );
 }
-
+  
 export default App;
